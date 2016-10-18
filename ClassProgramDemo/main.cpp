@@ -35,7 +35,7 @@ int main()
 	cout << "Person age: "<<p1.getAge() << endl;
 	Contacts c1;
 	cout << "Contact Class added: " << endl;
-
+	cout << "Notes: " << endl;
 	system("Pause");
 	return 0;
 }
