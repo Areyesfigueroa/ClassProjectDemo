@@ -7,7 +7,7 @@ class Person
 	int age;
 	string name;
 public:
-	Person(): age(0), name("") {}
+	Person(int cAge = 21, string cName = "Aliel"): age(cAge), name(cName) {}
 	void setAge(int age);
 	int getAge();
 	void setName(string name);
@@ -38,7 +38,6 @@ int main()
 {
 	cout << "Program first release is done" << endl;
 	Person p1;
-	p1.setAge(21);
 	p1.setName("Aliel");
 	cout << "Person name: " << p1.getName() << endl;
 	cout << "Person age: "<<p1.getAge() << endl;
