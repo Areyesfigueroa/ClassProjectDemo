@@ -41,6 +41,7 @@ int main()
 	p1.setName("Aliel");
 	cout << "Person name: " << p1.getName() << endl;
 	cout << "Person age: "<<p1.getAge() << endl;
+	cout << "Person class is done" << endl;
 
 	system("Pause");
 	return 0;
